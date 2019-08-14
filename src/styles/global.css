@@ -1,0 +1,22 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    border-bottom: 2px solid rgba(67, 178, 170, 0.5);
+    padding-bottom: 1px;
+    text-decoration: none;
+    color: hsla(0,0%,0%,0.8);
+    /*font-weight:500;*/
+    line-height: 1.4;
+}
+
+a:hover {
+    border-bottom: 2px solid rgba(67, 178, 170, 1);
+    color: hsla(0,0%,0%,1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+}
