@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="041e3616-3537-4408-85f9-0ce7ac3ff43b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/content/blog/react-hooks-tutorial/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SubscribeToNewsletter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/subscribe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/assets/gatsby-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/new-beginnings/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/react-hooks-tutorial/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/react-hooks-tutorial/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlePreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/blog/react-hooks-tutorial/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1807">
-                <caret line="409" column="55" selection-start-line="409" selection-start-column="55" selection-end-line="409" selection-end-column="55" />
+              <first_editor relative-caret-position="120">
+                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -52,14 +38,38 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="gatsby-config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gatsby-config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gatsby-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
               <folding>
+                <element signature="e#35#253#0" />
+                <element signature="e#212#247#0" />
+                <element signature="e#271#412#0" />
+                <element signature="e#331#405#0" />
+                <element signature="e#418#563#0" />
+                <element signature="e#478#556#0" />
+                <element signature="e#569#1402#0" />
+                <element signature="e#630#1395#0" />
+                <element signature="e#649#1386#0" />
                 <element signature="e#661#786#0" />
+                <element signature="e#729#773#0" />
                 <element signature="e#798#961#0" />
+                <element signature="e#877#948#0" />
+                <element signature="e#1095#1375#0" />
+                <element signature="e#1164#1362#0" />
+                <element signature="e#1467#1600#0" />
+                <element signature="e#1533#1593#0" />
+                <element signature="e#1632#1943#0" />
+                <element signature="e#1690#1936#0" />
+                <element signature="e#2012#2140#0" />
+                <element signature="e#2072#2133#0" />
+                <element signature="e#2146#2510#0" />
+                <element signature="e#2217#2503#0" />
+                <element signature="e#2234#2494#0" />
+                <element signature="e#2246#2375#0" />
+                <element signature="e#2387#2391#0" />
               </folding>
             </state>
           </provider>
@@ -126,6 +136,7 @@
       <find>favicon</find>
       <find>60</find>
       <find>gatsby-icon</find>
+      <find>useRef</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -157,6 +168,7 @@
         <option value="$PROJECT_DIR$/content/blog/new-beginnings/index.md" />
         <option value="$PROJECT_DIR$/public/manifest.webmanifest" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/content/blog/react-hooks-tutorial/index.md" />
       </list>
     </option>
   </component>
@@ -194,6 +206,24 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="react-hooks-tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -296,12 +326,20 @@
       <workItem from="1565143606487" duration="6623000" />
       <workItem from="1565479175133" duration="20934000" />
       <workItem from="1565747136307" duration="5423000" />
-      <workItem from="1565754591876" duration="36035000" />
+      <workItem from="1565754591876" duration="36892000" />
     </task>
+    <task id="LOCAL-00001" summary="tons">
+      <created>1566166600324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566166600324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69015000" />
+    <option name="totallyTimeSpent" value="69872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -313,8 +351,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298193" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32781956" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24394184" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32680723" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24394184" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -334,6 +372,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tons" />
+    <option name="LAST_COMMIT_MESSAGE" value="tons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,16 +651,6 @@
     <entry file="file://$PROJECT_DIR$/public/icons/icon-72x72.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/react-hooks-tutorial/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1807">
-            <caret line="409" column="55" selection-start-line="409" selection-start-column="55" selection-end-line="409" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/assets/gatsby-icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -630,12 +662,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="323">
+          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
           <folding>
+            <element signature="e#35#253#0" />
+            <element signature="e#212#247#0" />
+            <element signature="e#271#412#0" />
+            <element signature="e#331#405#0" />
+            <element signature="e#418#563#0" />
+            <element signature="e#478#556#0" />
+            <element signature="e#569#1402#0" />
+            <element signature="e#630#1395#0" />
+            <element signature="e#649#1386#0" />
             <element signature="e#661#786#0" />
+            <element signature="e#729#773#0" />
             <element signature="e#798#961#0" />
+            <element signature="e#877#948#0" />
+            <element signature="e#1095#1375#0" />
+            <element signature="e#1164#1362#0" />
+            <element signature="e#1467#1600#0" />
+            <element signature="e#1533#1593#0" />
+            <element signature="e#1632#1943#0" />
+            <element signature="e#1690#1936#0" />
+            <element signature="e#2012#2140#0" />
+            <element signature="e#2072#2133#0" />
+            <element signature="e#2146#2510#0" />
+            <element signature="e#2217#2503#0" />
+            <element signature="e#2234#2494#0" />
+            <element signature="e#2246#2375#0" />
+            <element signature="e#2387#2391#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/react-hooks-tutorial/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

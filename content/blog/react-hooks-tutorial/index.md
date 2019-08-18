@@ -1,7 +1,7 @@
 ---
 title: React hooks tutorial for beginners
 date: "2019-08-17"
-description: Learn how to implement the most useful React hooks - useState, useEffect, useContext, useReducer, useMemo, and useRef -  in one simple component.
+description: Learn how to implement the most useful React hooks - useState, useEffect, useContext, useReducer, and useMemo -  in one simple component.
 ---
 
 I'm pretty new to React hooks, too, so I don't know enough to confuse you or get too deep.
