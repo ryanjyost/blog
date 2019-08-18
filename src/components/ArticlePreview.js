@@ -3,10 +3,17 @@ import React from "react";
 export default function ArticlePreview({ article, i }) {
   return (
     <div style={{ marginBottom: 50 }}>
-      <h3 style={{ marginBottom: 10, fontSize: 20 }}>
-        <a href={article.link}>{article.name}</a>
+      <h3
+        style={{
+          marginBottom: 5,
+          fontSize: 20,
+          borderBottom: "none",
+        }}
+      >
+        <a style={{ borderBottom: "none" }} href={article.link}>
+          {article.name}
+        </a>
       </h3>
-      <h6>{article.pub.link ? <a href={}}</h6>
       <p
         style={{
           fontSize: 16,
@@ -16,6 +23,29 @@ export default function ArticlePreview({ article, i }) {
       >
         {article.desc}
       </p>
+      <div
+        style={{
+          marginTop: 10,
+          fontSize: 12,
+          opacity: 0.6,
+          display: "flex",
+          justifyContent: "flex-start",
+          alignItems: "baseline",
+        }}
+      >
+        published on{" "}
+        {article.pub.link ? (
+          <a
+            href={article.pub.link}
+            style={{ marginLeft: 3 }}
+            target={"_blank"}
+          >
+            {article.pub.name}
+          </a>
+        ) : (
+          article.pub.name
+        )}
+      </div>
     </div>
   );
 }

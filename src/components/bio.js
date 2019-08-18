@@ -42,6 +42,7 @@ const Bio = ({ isIndex }) => {
   `);
 
   const { author, social } = data.site.siteMetadata;
+  const imgWidth = isIndex ? 150 : 50;
 
   return (
     <div
@@ -59,19 +60,26 @@ const Bio = ({ isIndex }) => {
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 20,
-          marginTop: 20,
+          marginTop: isIndex ? 20 : 0,
           borderRadius: `100%`,
-          minWidth: 150,
+          minWidth: imgWidth,
         }}
         imgStyle={{
           borderRadius: `50%`,
         }}
       />
-      <p style={{ width: 380, maxWidth: "90%", marginBottom: 20 }}>
+      <p
+        style={{
+          width: 380,
+          maxWidth: "90%",
+          marginBottom: 20,
+          fontSize: isIndex ? null : 14,
+        }}
+      >
         <strong>Hi, I'm Ryan.</strong> I live and work in Chicago as a Front End
         Engineer. I'm always building <a href={"#portfolio"}>side projects</a>{" "}
-        and write <a href={"#writing"}>tutorials</a> that help folks build
-        things, too.
+        and write JavaScript-related <a href={"#writing"}>tutorials</a> that
+        help folks build things, too.
         {` `}
         {!isIndex && (
           <a href={`https://twitter.com/${social.twitter}`}>

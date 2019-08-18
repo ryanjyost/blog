@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Ryan's Blog`,
+    title: `Yost's Posts`,
     author: `Ryan J. Yost`,
-    description: `React and Node tutorials, mostly. The rest is TBD.`,
+    description: `Quick, step-by-step JavaScript tutorials.`,
     siteUrl: `https://ryanjyost.com`,
     social: {
       twitter: `ryanjyost`,
@@ -39,9 +39,19 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          // `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
         ],
       },
     },
@@ -63,7 +73,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     `gatsby-plugin-offline`,

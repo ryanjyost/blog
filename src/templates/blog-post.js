@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import SubscribeToNewsletter from "../components/SubscribeToNewsletter";
 
 import Bio from "../components/bio";
 import Layout from "../components/layout";
@@ -39,19 +40,16 @@ class BlogPostTemplate extends React.Component {
           style={{
             ...scale(-1 / 5),
             display: `block`,
-            marginBottom: rhythm(1),
+            marginBottom: 5,
           }}
         >
           {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
+        <div
+          style={{ paddingTop: 20 }}
+          id={"blog-post"}
+          dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <Bio />
-
         <ul
           style={{
             display: `flex`,
@@ -76,6 +74,16 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+
+        <SubscribeToNewsletter />
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+            backgroundColor: "rgba(0,0,0,0.1)",
+          }}
+        />
+
+        <Bio />
       </Layout>
     );
   }

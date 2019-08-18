@@ -20,3 +20,69 @@ ul {
     list-style-type: none;
     margin: 0px;
 }
+
+input[type="text"]{
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+input[type="submit"]{
+    background-color: rgba(67, 178, 170, 1);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+blockquote {
+    border-left: 2px solid rgba(67, 178, 170, 0.6);
+    margin: 0px 0px 20px 0px;
+    padding-left: 1.3rem;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+code {
+    font-family: monospace !important;
+    font-style: normal !important;
+}
+
+#blog-post h1, #blog-post h3, #blog-post h4, #blog-post h5, #blog-post h6 {
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+
+#blog-post h2 {
+    margin-bottom: 10px;
+    margin-top: 60px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+}
+
+#blog-post ul {
+    list-style-type: circle;
+    margin-left: 40px;
+}
+
+:not(pre) > code[class*="language-"]{
+    padding: 3px 6px !important;
+    border-radius: 3px !important;
+    margin: 0px 3px;
+}
+
+.gatsby-highlight {
+    margin-bottom: 40px;
+}
+
+.language-text {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.language-javascript, .language-jsx, .language-text  {
+    border-radius: 3px;
+}

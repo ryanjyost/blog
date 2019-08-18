@@ -38,19 +38,30 @@ class BlogIndex extends React.Component {
               <div key={node.fields.slug}>
                 <h3
                   style={{
-                    marginBottom: rhythm(1 / 4),
+                    marginBottom: 5,
+                    fontSize: 20,
+                    borderBottom: "none",
                   }}
                 >
                   <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                     {title}
                   </Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
                 <p
+                  style={{ marginBottom: 5 }}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
+                <h6
+                  style={{
+                    fontSize: 12,
+                    fontWeight: "normal",
+                    color: "rgba(0,0,0,0.4)",
+                  }}
+                >
+                  {node.frontmatter.date}
+                </h6>
               </div>
             );
           })}
@@ -90,8 +101,8 @@ class BlogIndex extends React.Component {
             marginBottom: 50,
           }}
         >
-          <h2 style={{ textAlign: "center", marginBottom: 10 }}>
-            {viewGuest ? "Guest Writing" : "Personal Blog"}
+          <h2 style={{ textAlign: "center", marginBottom: 8 }}>
+            {viewGuest ? "Guest Writing" : "Yost's Posts"}
           </h2>
           <div
             style={{
@@ -99,6 +110,7 @@ class BlogIndex extends React.Component {
               display: "inline-block",
               textAlign: "center",
               fontSize: 12,
+              color: "rgba(0,0,0,0.5)",
             }}
           >
             Browse my

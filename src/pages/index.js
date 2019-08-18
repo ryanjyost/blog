@@ -60,8 +60,16 @@ class Index extends React.Component {
           {projects.map((project, i) => {
             return (
               <div key={i} style={{ marginBottom: 50 }}>
-                <h3 style={{ marginBottom: 10, fontSize: 20 }}>
-                  <a href={project.npm || project.link || project.github}>
+                <h3
+                  style={{
+                    marginBottom: 5,
+                    fontSize: 20,
+                  }}
+                >
+                  <a
+                    style={{ borderBottom: "none" }}
+                    href={project.npm || project.link || project.github}
+                  >
                     {project.name}
                   </a>
                 </h3>
@@ -213,7 +221,8 @@ class Index extends React.Component {
           </MenuItem>
           <MenuItem icon={`🖋️`}>
             Read my <Link to={"/blog"}>blog posts</Link> and{" "}
-            <Link>guest writing</Link> in popular publications
+            <Link to={"/blog#guest"}>guest writing</Link> in popular
+            publications
           </MenuItem>
           <MenuItem icon={`📃`}>
             <a href={"resume.pdf"}>Download my resume</a>
