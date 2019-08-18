@@ -51,7 +51,7 @@ Update the React logo's `animationDirection` to be set based on our component's 
  />
 ```
 
-Finally, add a button that toggles the spin direction.
+Below the `img`,  add a button that toggles the spin direction.
 ```jsx
 <button onClick={() => setSpinDirection(!spinClockwise)}>
     {spinClockwise ? "Switch to counterclockwise" : "Switch to clockwise"}
@@ -102,11 +102,6 @@ Click the button and see the React logo spin in different directions. That's our
 **Learn more about `useState` [here](https://reactjs.org/docs/hooks-overview.html#state-hook).**
 
 ## Customize the browser page title with the `useEffect` hook
-Gotta import the hook.
-```jsx
-import React, { useState, useEffect } from "react";
-```
-
 Gotta import the hook.
 ```jsx
 import React, { useState, useEffect } from "react";
@@ -228,14 +223,14 @@ Define a new reducer function (outside the component function) with one piece of
 const initialState = { spinDuration: 2 };
 
 function reducer(state, action) {
-  switch (action.type) {
-    case "increaseSpeed":
-      return { spinDuration: state.spinDuration - 1 };
-    case "decreaseSpeed":
-      return { spinDuration: state.spinDuration + 1 };
-    default:
-      return state;
-  }
+	switch (action.type) {
+		case "increaseSpeed":
+			return { spinDuration: state.spinDuration - 0.2 };
+		case "decreaseSpeed":
+			return { spinDuration: state.spinDuration + 0.2 };
+		default:
+			return state;
+	}
 }
 ```
 
