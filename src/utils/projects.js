@@ -5,6 +5,7 @@ const projects = [
     // preview: data.depchecker.sizes,
     // skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/movie-api",
+    frontCode: "https://github.com/ryanjyost/movie-app",
     link: "https://moviemedium.io",
   },
   {
@@ -13,6 +14,7 @@ const projects = [
     // preview: data.depchecker.sizes,
     skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/depchecker",
+    frontCode: "https://github.com/ryanjyost/depchecker-client",
     link: "https://depchecker.com/",
   },
   {
@@ -28,7 +30,8 @@ const projects = [
   {
     name: "Newsbie",
     desc:
-      "Navigate, analyze and understand the news media. (Using data from News Sites Scraper project)",
+      "Navigate, analyze and understand the news media through aggregated, analyzed data. (May take a while to" +
+      " calculate on the sandbox server - worth the wait!)",
     // preview: data.newsbie.sizes,
     skills: [
       "React",
@@ -40,6 +43,8 @@ const projects = [
       "RESTful API",
     ],
     github: "https://github.com/ryanjyost/newsbie",
+    frontCode: "https://github.com/ryanjyost/newsbie",
+    dataCode: "https://github.com/ryanjyost/news-sites-scraper",
     link: "https://newsbie.io",
   },
 
@@ -60,6 +65,7 @@ const projects = [
     ],
     github: "https://github.com/ryanjyost/the-daily-gray",
     link: "http://thedailygray.com/",
+    extCode: "https://github.com/ryanjyost/the-daily-gray-extension",
   },
 
   {

@@ -26,6 +26,7 @@ class Index extends React.Component {
     const aboutMe = () => {
       return (
         <div>
+          <h5 style={{ marginBottom: 10 }}>Background</h5>
           <p>
             I started working at a financial advisory firm in Chicago right
             after graduating from the University of Michigan in 2015 with majors
@@ -34,11 +35,10 @@ class Index extends React.Component {
           <p>
             Not long after, I began to build a Wordpress site to share and
             discuss interesting articles, books and podcasts with my virtual
-            book club. I became absolutely enthralled with customizing the
-            design, implementing knew functionality and simply building
-            something from nothing.
+            book club. I became obsessed with customizing the design,
+            implementing new functionality and simply building something from
+            nothing.
           </p>
-
           <p>
             Over the next year and a half, I spent my mornings, nights and
             weekends learning and coding as much as I could. I built a portfolio
@@ -49,6 +49,39 @@ class Index extends React.Component {
           <p>
             I landed my first developer job in early 2018 at an IT company and
             have been loving it ever since.
+          </p>
+          <h5 style={{ marginBottom: 10 }}>Current Work</h5>
+          <p>
+            My typical work day involves a healthy dose of React programming,
+            leveraging Redux and other supporting players in an Agile/Scrum
+            environment. I'll also write some end-to-end tests, conduct code
+            reviews and collaborate with our UX designer on new features.
+          </p>
+          <p>
+            Projects range from internal applications that manage hardware in
+            datacenters around the world, to building out features in our portal
+            for enterprise clients and tackling greenfield software in
+            consultative relationships.
+          </p>
+          <p>
+            While not my usual responsibilities, I have also built a native
+            tablet application, carried out architectural and build-pipeline
+            improvements for our large React/Redux application and written some
+            Node.js.
+          </p>
+          <h5 style={{ marginBottom: 10 }}>Outside the 9 to 5</h5>
+          <p>
+            A lot of my free time is spent building side projects, playing with
+            new tech and participating in the community by writing tutorials and
+            attending the occasional meetup. I really love software development,
+            so work and play are often mixed.
+          </p>
+          <p>
+            I also enjoy movies, staying active, good podcasts, spending time
+            with friends and going on at least one adventure a year. The most
+            recent one was two weeks in Thailand, where I became a certified
+            scuba diver, swam with a whale shark, washed muddy elephants and
+            almost missed my flight home because of a nefarious cab driver...
           </p>
         </div>
       );
@@ -62,7 +95,7 @@ class Index extends React.Component {
               <div key={i} style={{ marginBottom: 50 }}>
                 <h3
                   style={{
-                    marginBottom: 5,
+                    marginBottom: 0,
                     fontSize: 20,
                   }}
                 >
@@ -77,11 +110,54 @@ class Index extends React.Component {
                   style={{
                     fontSize: 16,
                     color: "rgba(0,0,0,0.6)",
-                    marginBottom: 0,
+                    marginBottom: 3,
                   }}
                 >
                   {project.desc}
                 </p>
+                <div style={{ display: "flex", fontSize: 11, opacity: 0.6 }}>
+                  <div style={{ marginRight: 10 }}>
+                    {project.frontCode ? (
+                      <div>
+                        View{" "}
+                        <a
+                          href={project.frontCode}
+                          style={{ margin: "0px 1px" }}
+                        >
+                          frontend
+                        </a>{" "}
+                        and{" "}
+                        <a href={project.github} style={{ margin: "0px 1px" }}>
+                          backend
+                        </a>{" "}
+                        code on GitHub
+                      </div>
+                    ) : (
+                      <a href={project.github}>View code on GitHub</a>
+                    )}
+                  </div>
+                  {project.npm ? (
+                    <div style={{ marginRight: 10 }}>
+                      <a href={project.npm} style={{ margin: "0px 1px" }}>
+                        View on npm
+                      </a>
+                    </div>
+                  ) : null}
+                  {project.dataCode ? (
+                    <div style={{ marginRight: 10 }}>
+                      <a href={project.dataCode} style={{ margin: "0px 1px" }}>
+                        View data aggregation code on GitHub
+                      </a>
+                    </div>
+                  ) : null}
+                  {project.extCode ? (
+                    <div style={{ marginRight: 10 }}>
+                      <a href={project.extCode} style={{ margin: "0px 1px" }}>
+                        View Chrome Extension
+                      </a>
+                    </div>
+                  ) : null}
+                </div>
                 {/*<div*/}
                 {/*style={{*/}
                 {/*display: "flex",*/}
@@ -185,8 +261,8 @@ class Index extends React.Component {
           {list.map((article, i) => {
             return <ArticlePreview key={i} article={article} />;
           })}
-          <Link to={"/blog#guest"}>
-            Click to read more of my writing &rarr;
+          <Link to={"/blog#guest"} style={{ fontSize: 16 }}>
+            Read more of my writing &rarr;
           </Link>
         </div>
       );
@@ -205,33 +281,59 @@ class Index extends React.Component {
         <SEO title="Ryan J Yost" />
         <Bio isIndex />
         <ul>
-          <MenuItem icon={`👋`}>
-            Connect with me on{" "}
-            <a href={"https://twitter.com/ryanjyost"}>Twitter</a> and{" "}
-            <a href={"https://www.linkedin.com/in/ryan-yost-b5b2bb65/"}>
-              LinkedIn
+          <MenuItem icon={`👇`}>
+            Scroll to learn more -{" "}
+            <a href={"#about"}>
+              <strong>about me</strong>
+            </a>,{" "}
+            <a href={"#portfolio"}>
+              <strong>software I've made</strong>
+            </a>,{" "}
+            <a href={"#writing"}>
+              <strong>my technical writing</strong>
             </a>{" "}
-            or shoot me an email at{" "}
-            <a href="mailto:ryanjyost@gmail.com">ryanjyost@gmail.com</a>
+            and{" "}
+            <a href={"#skills"}>
+              <strong>my skills/experience/technologies</strong>
+            </a>.
+          </MenuItem>
+          <MenuItem icon={`🖋️`}>
+            Read my{" "}
+            <Link to={"/blog"}>
+              <strong>blog posts</strong>
+            </Link>{" "}
+            and{" "}
+            <Link to={"/blog#guest"}>
+              <strong>guest writing</strong>
+            </Link>{" "}
+            in popular publications
           </MenuItem>
           <MenuItem icon={`💻`}>
             Check out some of{" "}
-            <a href="https://github.com/ryanjyost">my code on GitHub</a>. I
-            mostly use React, Node and supporting players
+            <a href="https://github.com/ryanjyost">
+              <strong>my code on GitHub</strong>
+            </a>. I mostly use React, Node and supporting players
           </MenuItem>
-          <MenuItem icon={`🖋️`}>
-            Read my <Link to={"/blog"}>blog posts</Link> and{" "}
-            <Link to={"/blog#guest"}>guest writing</Link> in popular
-            publications
-          </MenuItem>
+
           <MenuItem icon={`📃`}>
-            <a href={"resume.pdf"}>Download my resume</a>
+            <a href={"resume.pdf"}>
+              <strong>Download my resume</strong>
+            </a>
           </MenuItem>
-          <MenuItem icon={`👇`}>
-            Scroll to learn more <a href={"#about"}>about me</a>,{" "}
-            <a href={"#portfolio"}>software I've made</a>,{" "}
-            <a href={"#writing"}>my writing</a> and{" "}
-            <a href={"#skills"}>my skills/experience/technologies</a>.
+
+          <MenuItem icon={`👋`}>
+            Connect with me on{" "}
+            <a href={"https://twitter.com/ryanjyost"}>
+              <strong>Twitter</strong>
+            </a>{" "}
+            and{" "}
+            <a href={"https://www.linkedin.com/in/ryan-yost-b5b2bb65/"}>
+              <strong>LinkedIn</strong>
+            </a>{" "}
+            or shoot me an email at{" "}
+            <a href="mailto:ryanjyost@gmail.com">
+              <strong>ryanjyost@gmail.com</strong>
+            </a>
           </MenuItem>
         </ul>
         <div style={{ margin: "100px 0px" }}>
