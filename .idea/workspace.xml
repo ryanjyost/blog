@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="041e3616-3537-4408-85f9-0ce7ac3ff43b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/content/drafts/node-dynamodb-intro-tutorial/index.md" afterDir="false" />
+    <list default="true" id="041e3616-3537-4408-85f9-0ce7ac3ff43b" name="Default" comment="tweaks and improvements">
+      <change afterPath="$PROJECT_DIR$/static/resume-old.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,12 +30,12 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+            <state relative-caret-position="217">
+              <caret line="318" column="35" lean-forward="true" selection-start-line="318" selection-start-column="35" selection-end-line="318" selection-end-column="35" />
               <folding>
-                <element signature="e#0#26#0" />
                 <element signature="e#451#619#0" />
                 <element signature="e#468#612#0" />
+                <element signature="e#733#2486#0" />
                 <element signature="e#1002#1341#0" />
                 <element signature="e#1353#1712#0" />
                 <element signature="e#2266#2472#0" />
@@ -140,6 +138,7 @@
       <find>implementing kne</find>
       <find>software I</find>
       <find>click</find>
+      <find>resume</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -226,6 +225,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -248,9 +252,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/content/blog" />
       <recent name="$PROJECT_DIR$/public/icons" />
-      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/content/assets" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
@@ -290,7 +294,7 @@
       <workItem from="1566170423656" duration="1154000" />
       <workItem from="1566179347548" duration="4000" />
       <workItem from="1566268048352" duration="2840000" />
-      <workItem from="1566353485081" duration="5940000" />
+      <workItem from="1566353485081" duration="6421000" />
     </task>
     <task id="LOCAL-00001" summary="tons">
       <created>1566166600324</created>
@@ -313,11 +317,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566171226472</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tweaks and improvements">
+      <created>1566362731230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566362731230</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80069000" />
+    <option name="totallyTimeSpent" value="80550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="778" extended-state="6" />
@@ -330,7 +341,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32680723" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24798061" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24798061" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -355,7 +366,8 @@
     <MESSAGE value="tons" />
     <MESSAGE value="google tag manager" />
     <MESSAGE value="fix some blog stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some blog stuff" />
+    <MESSAGE value="tweaks and improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaks and improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -665,12 +677,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        <state relative-caret-position="217">
+          <caret line="318" column="35" lean-forward="true" selection-start-line="318" selection-start-column="35" selection-end-line="318" selection-end-column="35" />
           <folding>
-            <element signature="e#0#26#0" />
             <element signature="e#451#619#0" />
             <element signature="e#468#612#0" />
+            <element signature="e#733#2486#0" />
             <element signature="e#1002#1341#0" />
             <element signature="e#1353#1712#0" />
             <element signature="e#2266#2472#0" />
