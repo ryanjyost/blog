@@ -50,6 +50,8 @@ class BlogPostTemplate extends React.Component {
           id={"blog-post"}
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+
+        <SubscribeToNewsletter />
         <ul
           style={{
             display: `flex`,
@@ -57,6 +59,7 @@ class BlogPostTemplate extends React.Component {
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
+            marginTop: 50,
           }}
         >
           <li>
@@ -74,8 +77,6 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-
-        <SubscribeToNewsletter />
         <hr
           style={{
             marginBottom: rhythm(1),
