@@ -8,7 +8,6 @@ import Bio from "../components/bio";
 import Layout from "../components/layout";
 import ArticlePreview from "../components/ArticlePreview";
 import SEO from "../components/seo";
-import resume from "../../static/resume.pdf";
 
 const MenuItem = ({ icon, children }) => {
   return (
@@ -316,7 +315,7 @@ class Index extends React.Component {
           </MenuItem>
 
           <MenuItem icon={`📃`}>
-            <a href={"resume.pdf"}>
+            <a href={"Yost_Ryan_Resume.pdf"}>
               <strong>Download my resume</strong>
             </a>
           </MenuItem>
