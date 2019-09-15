@@ -16,7 +16,7 @@ a:hover {
     color: hsla(0,0%,0%,1);
 }
 
-ul {
+.noListStyle {
     list-style-type: none;
     margin: 0px;
 }

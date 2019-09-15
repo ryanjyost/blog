@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import Image from "gatsby-image";
 import projects from "../utils/projects";
 import articles from "../utils/posts";
 import skills from "../utils/skills";
@@ -8,6 +9,7 @@ import Bio from "../components/bio";
 import Layout from "../components/layout";
 import ArticlePreview from "../components/ArticlePreview";
 import SEO from "../components/seo";
+import { rhythm } from "../utils/typography";
 
 const MenuItem = ({ icon, children }) => {
   return (
@@ -95,12 +97,12 @@ class Index extends React.Component {
               <div key={i} style={{ marginBottom: 50 }}>
                 <h3
                   style={{
-                    marginBottom: 0,
+                    marginBottom: 5,
                     fontSize: 20,
                   }}
                 >
                   <a
-                    style={{ borderBottom: "none" }}
+                    // style={{ borderBottom: "none" }}
                     href={project.npm || project.link || project.github}
                   >
                     {project.name}
@@ -182,6 +184,18 @@ class Index extends React.Component {
                 {/*);*/}
                 {/*})}*/}
                 {/*</div>*/}
+                {data[project.preview] ? (
+                  <Image
+                    fluid={data[project.preview].childImageSharp.sizes}
+                    alt={project.preview}
+                    style={{
+                      width: "100%",
+                      borderRadius: `5px`,
+                      marginTop: 20,
+                      border: "1px solid #f2f2f2",
+                    }}
+                  />
+                ) : null}
               </div>
             );
           })}
@@ -280,19 +294,16 @@ class Index extends React.Component {
       >
         <SEO title="Ryan J Yost" />
         <Bio isIndex />
-        <ul>
+        <ul className={"noListStyle"}>
           <MenuItem icon={`👇`}>
-            Scroll to learn more -{" "}
+            Scroll to learn more{"   "}
             <a href={"#about"}>
               <strong>about me</strong>
-            </a>,{" "}
+            </a>,{"   "}
             <a href={"#portfolio"}>
               <strong>software I've made</strong>
-            </a>,{" "}
-            <a href={"#writing"}>
-              <strong>my technical writing</strong>
-            </a>{" "}
-            and{" "}
+            </a>,{"   "}
+            and{"   "}
             <a href={"#skills"}>
               <strong>my skills/experience/technologies</strong>
             </a>.
@@ -337,20 +348,50 @@ class Index extends React.Component {
           </MenuItem>
         </ul>
         <div style={{ margin: "100px 0px" }}>
-          <h3 id={"about"}>About Me</h3>
-          {aboutMe()}
-          <h3 id={"writing"} style={{ marginTop: 100 }}>
-            Things I've written
-          </h3>
-          {myArticles()}
-          <h3 id={"portfolio"} style={{ marginTop: 100 }}>
+          <h3
+            id={"portfolio"}
+            style={{
+              borderBottom: "2px solid #e5e5e5",
+              paddingBottom: 5,
+            }}
+          >
             Things I've built
           </h3>
           {myPortfolio()}
-          <h3 id={"skills"} style={{ marginTop: 100 }}>
+          <h3
+            id={"skills"}
+            style={{
+              marginTop: 100,
+              borderBottom: "2px solid #e5e5e5",
+              paddingBottom: 5,
+            }}
+          >
             Skills and familiar tech
           </h3>
           {mySkills()}
+          <h3
+            id={"writing"}
+            style={{
+              marginTop: 100,
+              borderBottom: "2px solid #e5e5e5",
+              paddingBottom: 5,
+            }}
+          >
+            Things I've written
+          </h3>
+          {myArticles()}
+
+          <h3
+            id={"about"}
+            style={{
+              marginTop: 100,
+              borderBottom: "2px solid #e5e5e5",
+              paddingBottom: 5,
+            }}
+          >
+            About Me
+          </h3>
+          {aboutMe()}
         </div>
       </Layout>
     );
@@ -381,7 +422,49 @@ export const pageQuery = graphql`
         }
       }
     }
+    moviemedium: file(absolutePath: { regex: "/mm-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+    depchecker: file(absolutePath: { regex: "/depchecker-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+    simpleStorage: file(absolutePath: { regex: "/simple-storage-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+    dailyGray: file(absolutePath: { regex: "/the-daily-gray-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
     newsbie: file(absolutePath: { regex: "/newsbie-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+    fjf: file(absolutePath: { regex: "/fjf-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+    domEvents: file(absolutePath: { regex: "/dom-events-preview/" }) {
       childImageSharp {
         sizes(maxWidth: 630) {
           ...GatsbyImageSharpSizes

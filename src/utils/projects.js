@@ -52,7 +52,7 @@ const projects = [
     name: "The Daily Gray",
     desc:
       "A web application that offers a better way to consume political news and opinions.",
-    preview: "dailygray",
+    preview: "dailyGray",
     skills: [
       "Node.js",
       "Express",
