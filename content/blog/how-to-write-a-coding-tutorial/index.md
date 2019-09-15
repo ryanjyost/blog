@@ -33,7 +33,7 @@ Reading tutorials is great, but there are plenty of **benefits of writing your o
 I'm sure I'm missing stuff here - so I created a GitHub repo so that this process can be open source and improve over 
 time.
 
-Here's the link 👉 
+Here's the link 👉 https://github.com/ryanjyost/how-to-write-a-coding-tutorial
 
 ## Tutorial writing process
 

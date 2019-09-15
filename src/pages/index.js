@@ -21,6 +21,7 @@ const MenuItem = ({ icon, children }) => {
 class Index extends React.Component {
   render() {
     const { data } = this.props;
+    console.log("DA)TA", data);
 
     const aboutMe = () => {
       return (
@@ -377,6 +378,20 @@ export const pageQuery = graphql`
             title
             description
           }
+        }
+      }
+    }
+    newsbie: file(absolutePath: { regex: "/newsbie-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        fixed(width: 50, height: 50) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

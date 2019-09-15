@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Movie Medium",
     desc: `A game integrated with Slack where you predict the Rotten Tomatoes scores of upcoming movies against coworkers.`,
-    // preview: data.depchecker.sizes,
+    preview: "moviemedium",
     // skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/movie-api",
     frontCode: "https://github.com/ryanjyost/movie-app",
@@ -11,7 +11,7 @@ const projects = [
   {
     name: "DepChecker",
     desc: `Audit your project's NPM dependencies and export the report as a CSV file.`,
-    // preview: data.depchecker.sizes,
+    preview: "depchecker",
     skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/depchecker",
     frontCode: "https://github.com/ryanjyost/depchecker-client",
@@ -21,7 +21,7 @@ const projects = [
     name: "React Simple Storage",
     desc:
       "Simple component and helper functions for using web storage with React. ",
-    // preview: data.simpleStorage.sizes,
+    preview: "simpleStorage",
     skills: ["React", "npm", "Web Storage", "Open Source", "Technical Writing"],
     github: "https://github.com/ryanjyost/react-simple-storage",
     link: "https://ryanjyost.github.io/react-simple-storage-example-project/",
@@ -32,7 +32,7 @@ const projects = [
     desc:
       "Navigate, analyze and understand the news media through aggregated, analyzed data. (May take a while to" +
       " calculate on the sandbox server - worth the wait!)",
-    // preview: data.newsbie.sizes,
+    preview: "newsbie",
     skills: [
       "React",
       "Node.js",
@@ -52,7 +52,7 @@ const projects = [
     name: "The Daily Gray",
     desc:
       "A web application that offers a better way to consume political news and opinions.",
-    // preview: data.dailygray.sizes,
+    preview: "dailygray",
     skills: [
       "Node.js",
       "Express",
@@ -74,8 +74,8 @@ const projects = [
       "A Node.js program that screenshots and scrapes links from dozens of news sites. It uploads the images to a" +
       " CDN" +
       " and saves the scraped data and CDN response to a MongoDB database.",
-    // preview: data.scraper.sizes,
-    skills: ["Node.js", "Express", "MongoDB", "Async/Await", "Puppeteer"],
+    preview: "scraper",
+    skills: ["Node.js", "Express", "MongoDB", "async/await", "Puppeteer"],
     github: "https://github.com/ryanjyost/news-sites-scraper",
     // link:
     //    'https://ryanjyost.github.io/react-simple-storage-example-project/',
@@ -85,7 +85,7 @@ const projects = [
     name: "First Job Finance",
     desc:
       "Tools and checklists to help adults-in-progress stress less about their personal finances.",
-    // preview: data.fjf.sizes,
+    preview: "fjf",
     skills: [
       "Ember",
       "Handlebars",
@@ -116,7 +116,7 @@ const projects = [
   {
     name: "DOM Events Playground",
     desc: "A site for learning and playing around with DOM events",
-    // preview: data.domEvents.sizes,
+    preview: "domEvents",
     skills: ["JavaScript", "LocalStorage", "Bootstrap"],
     github: "https://github.com/ryanjyost/dom-events",
     link: "https://ryanjyost.github.io/dom-events/",

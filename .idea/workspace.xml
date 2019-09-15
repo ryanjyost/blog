@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="041e3616-3537-4408-85f9-0ce7ac3ff43b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/content/blog/how-to-write-a-coding-tutorial/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/assets/dom-events-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/assets/fjf-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/assets/newsbie-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/assets/simple-storage-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/assets/the-daily-gray-preview.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/how-to-write-a-coding-tutorial/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/how-to-write-a-coding-tutorial/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/projects.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +24,11 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6420">
-              <caret line="321" selection-start-line="321" selection-end-line="321" />
+            <state relative-caret-position="6500">
+              <caret line="387" column="9" selection-start-line="387" selection-start-column="9" selection-end-line="387" selection-end-column="9" />
+              <folding>
+                <element signature="e#687#3684#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -27,10 +37,28 @@
         <entry file="file://$PROJECT_DIR$/content/blog/how-to-write-a-coding-tutorial/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <first_editor relative-caret-position="644">
+                <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/projects.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="136" column="54" selection-start-line="136" selection-start-column="54" selection-end-line="136" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bio.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/bio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="57" column="69" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -66,6 +94,7 @@
       <find>software I</find>
       <find>click</find>
       <find>resume</find>
+      <find>childImageSharp</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -95,11 +124,11 @@
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/content/blog/react-hooks-tutorial/index.md" />
         <option value="$PROJECT_DIR$/src/pages/blog.js" />
-        <option value="$PROJECT_DIR$/src/utils/projects.js" />
         <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
         <option value="$PROJECT_DIR$/content/blog/node-dynamodb-intro-tutorial/index.md" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/content/blog/how-to-write-your-first-coding-tutorial/index.md" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/utils/projects.js" />
         <option value="$PROJECT_DIR$/content/blog/how-to-write-a-coding-tutorial/index.md" />
       </list>
     </option>
@@ -148,6 +177,12 @@
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -155,12 +190,24 @@
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="node-dynamodb-intro-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="how-to-write-a-coding-tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,18 +230,18 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content/blog" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/public/icons" />
-      <recent name="$PROJECT_DIR$/content/assets" />
-      <recent name="$PROJECT_DIR$/src/pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/content/blog" />
       <recent name="$PROJECT_DIR$/content/drafts" />
       <recent name="$PROJECT_DIR$/content/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/assets" />
+      <recent name="$PROJECT_DIR$/content/blog" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/public/icons" />
+      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,7 +280,7 @@
       <workItem from="1567880923644" duration="3510000" />
       <workItem from="1568170925104" duration="3942000" />
       <workItem from="1568401070212" duration="264000" />
-      <workItem from="1568568529295" duration="2286000" />
+      <workItem from="1568568529295" duration="3372000" />
     </task>
     <task id="LOCAL-00001" summary="tons">
       <created>1566166600324</created>
@@ -284,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567881259093</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finish post">
+      <created>1568570885420</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568570885421</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108430000" />
+    <option name="totallyTimeSpent" value="109516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-389" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -330,7 +384,8 @@
     <MESSAGE value="resume" />
     <MESSAGE value="finish dynamodb post" />
     <MESSAGE value="new resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="new resume" />
+    <MESSAGE value="finish post" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -492,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/bio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/404.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -600,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -631,18 +672,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/bio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="57" column="69" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6420">
-          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        <state relative-caret-position="6500">
+          <caret line="387" column="9" selection-start-line="387" selection-start-column="9" selection-end-line="387" selection-end-column="9" />
+          <folding>
+            <element signature="e#687#3684#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="136" column="54" selection-start-line="136" selection-start-column="54" selection-end-line="136" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/blog/how-to-write-a-coding-tutorial/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <first_editor relative-caret-position="644">
+            <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           </first_editor>
           <second_editor />
         </state>
