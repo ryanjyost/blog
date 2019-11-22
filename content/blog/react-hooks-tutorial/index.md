@@ -9,14 +9,16 @@ I'm pretty new to React hooks, too, so I don't know enough to confuse you or get
 ## Let's get started
 Initialize a new app with [create-react-app](https://github.com/facebook/create-react-app).
 
-```
+```dotenv
 npx create-react-app react-hooks-tutorial
 ```
+
+
 > Not familiar with npx? [Read this.](https://medium
 .com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) 
 
 Enter the project’s directory and fire up the app.
-```
+```dotenv
 cd react-hooks-tutorial
 npm start
 ```

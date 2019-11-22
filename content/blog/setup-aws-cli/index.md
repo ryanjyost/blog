@@ -1,6 +1,6 @@
 ---
 title: "Deploy React Apps to AWS: Part 1 - Setting up the AWS CLI"
-date: "2019-11-18"
+date: "2019-11-16"
 description: The first step to using AWS resources to host your React apps.
 ---
 
@@ -42,7 +42,7 @@ On the success page, **be sure to download the CSV with your new user's AWS Acce
 
 Once installed, run the command to quickly [configure your AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html#cli-quick-configuration).
 
-```
+```dotenv
 > aws configure
 ```
 
@@ -50,7 +50,7 @@ You'll be prompted in the terminal to enter the `AccessKey` and `SecretAccessKey
 
 Also provide your default [AWS Region](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html).
 
-```
+```dotenv
 AWS Access Key ID [None]: <AccessKey>
 AWS Secret Access Key [None]: <SecretAccessKey>
 Default region name [None]: <Region> // e.g. us-east-1
@@ -59,7 +59,7 @@ Default output format [None]: json
 
 To verify that your CLI credentials are properly configured, run the following command, which will output your 
 credentials.
-```
+```dotenv
 > cat ~/.aws/credentials
 [default]
 aws_access_key_id=<AccessKey>

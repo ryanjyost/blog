@@ -8,7 +8,7 @@ export default function SubscribeToNewsletter() {
         padding: "50px 5px",
         textAlign: "center",
         backgroundColor: "rgb(51, 55, 70)",
-        marginTop: 50,
+        marginTop: 100,
       }}
       action="https://tinyletter.com/ryanjyost"
       method="post"

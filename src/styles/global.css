@@ -65,13 +65,14 @@ code {
 }
 
 #blog-post ul {
-    list-style-type: circle;
+    list-style-type: inherit;
     margin-left: 40px;
 }
 
 #blog-post img {
     margin: 20px 0px 20px 0px;
     border: 1px solid #f2f2f2;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 :not(pre) > code[class*="language-"]{
@@ -85,7 +86,9 @@ code {
 }
 
 .language-text {
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: rgba(60, 146, 140, 1) !important;
+    background-color: rgba(67, 178, 170, 0.1) !important;
+    font-weight:600;
 }
 
 .language-javascript, .language-jsx, .language-text  {
