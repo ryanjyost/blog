@@ -422,6 +422,13 @@ export const pageQuery = graphql`
         }
       }
     }
+    boilerplate: file(absolutePath: { regex: "/boilerplate-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
     moviemedium: file(absolutePath: { regex: "/mm-preview/" }) {
       childImageSharp {
         sizes(maxWidth: 630) {

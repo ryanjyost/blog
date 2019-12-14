@@ -1,5 +1,14 @@
 const projects = [
   {
+    name: "React SPA Starter",
+    desc: `Simple, rich boilerplate for single-page React applications.`,
+    preview: "boilerplate",
+    // skills: ["React", "Node.js", "Socket.io", "AWS"],
+    github: "https://github.com/ryanjyost/react-spa-starter",
+    // frontCode: "https://github.com/ryanjyost/movie-app",
+    link: "https://react-spa-starter.com",
+  },
+  {
     name: "Movie Medium",
     desc: `A game integrated with Slack where you predict the Rotten Tomatoes scores of upcoming movies against coworkers.`,
     preview: "moviemedium",
@@ -27,46 +36,46 @@ const projects = [
     link: "https://ryanjyost.github.io/react-simple-storage-example-project/",
     npm: "https://www.npmjs.com/package/react-simple-storage",
   },
-  {
-    name: "Newsbie",
-    desc:
-      "Navigate, analyze and understand the news media through aggregated, analyzed data. (May take a while to" +
-      " calculate on the sandbox server - worth the wait!)",
-    preview: "newsbie",
-    skills: [
-      "React",
-      "Node.js",
-      "Hapi.js",
-      "Redis",
-      "MongoDB/Mongoose",
-      "Responsive Design",
-      "RESTful API",
-    ],
-    github: "https://github.com/ryanjyost/newsbie",
-    frontCode: "https://github.com/ryanjyost/newsbie",
-    dataCode: "https://github.com/ryanjyost/news-sites-scraper",
-    link: "https://newsbie.io",
-  },
-
-  {
-    name: "The Daily Gray",
-    desc:
-      "A web application that offers a better way to consume political news and opinions.",
-    preview: "dailyGray",
-    skills: [
-      "Node.js",
-      "Express",
-      "React",
-      "MongoDB",
-      "ES6",
-      "Webpack",
-      "Responsive Design",
-      "RESTful API",
-    ],
-    github: "https://github.com/ryanjyost/the-daily-gray",
-    link: "http://thedailygray.com/",
-    extCode: "https://github.com/ryanjyost/the-daily-gray-extension",
-  },
+  // {
+  //   name: "Newsbie",
+  //   desc:
+  //     "Navigate, analyze and understand the news media through aggregated, analyzed data. (May take a while to" +
+  //     " calculate on the sandbox server - worth the wait!)",
+  //   preview: "newsbie",
+  //   skills: [
+  //     "React",
+  //     "Node.js",
+  //     "Hapi.js",
+  //     "Redis",
+  //     "MongoDB/Mongoose",
+  //     "Responsive Design",
+  //     "RESTful API",
+  //   ],
+  //   github: "https://github.com/ryanjyost/newsbie",
+  //   frontCode: "https://github.com/ryanjyost/newsbie",
+  //   dataCode: "https://github.com/ryanjyost/news-sites-scraper",
+  //   link: "https://newsbie.io",
+  // },
+  //
+  // {
+  //   name: "The Daily Gray",
+  //   desc:
+  //     "A web application that offers a better way to consume political news and opinions.",
+  //   preview: "dailyGray",
+  //   skills: [
+  //     "Node.js",
+  //     "Express",
+  //     "React",
+  //     "MongoDB",
+  //     "ES6",
+  //     "Webpack",
+  //     "Responsive Design",
+  //     "RESTful API",
+  //   ],
+  //   github: "https://github.com/ryanjyost/the-daily-gray",
+  //   link: "http://thedailygray.com/",
+  //   extCode: "https://github.com/ryanjyost/the-daily-gray-extension",
+  // },
 
   {
     name: "News Sites Scraper",
