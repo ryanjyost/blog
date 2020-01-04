@@ -113,9 +113,9 @@ In the words of the `react-router` [docs](https://reacttraining.com/react-router
 
 > Some folks find value in a centralized route config.
 > A route config is just data. React is great at mapping
-> data into components, and `<Route>` is a component. Our route config is just an array of logical "routes"
+> data into components, and `<Route/>` is a component. Our route config is just an array of logical "routes"
 > with `path` and `component` props, ordered the same
-> way you'd do inside a `<Switch>`.
+> way you'd do inside a `<Switch/>`.
 
 Let's make our own basic route config for this app with the following characteristics...
 
@@ -197,7 +197,7 @@ function RouteWithSubRoutes(route) {
 
 This component allows rendering of sub-routes if applicable. In the words of the official docs...
 
-> A special wrapper for <Route> that knows how to
+> A special wrapper for `<Route/>` that knows how to
 > handle "sub"-routes by passing them in a `routes`
 > prop to the component it renders.
 
