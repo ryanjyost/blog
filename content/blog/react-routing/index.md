@@ -4,13 +4,13 @@ date: "2020-01-03"
 description: "A tutorial for setting up advanced routing in single page React applications."
 ---
 
-Routing in React, usually using the popular [React Router](https://medium.com/r/?url=https%3A%2F%2Freacttraining.com%2Freact-router%2Fweb%2Fguides%2Fquick-start) library, can get messy pretty quickly.
+Routing in React, usually using the popular [React Router](https://reacttraining.com/react-router/) library, can get messy pretty quickly.
 
 - How do I manage all these routes?
 - What's the best way to implement authenticated/protected routes?
 - How should I handle nested routes?
 
-While there are obviously tons of great answers to these questions, I've tried several unsatisfactory methods before the one I'll walk through in this tutorial, which I found to be a nice implementation for an [open source react/redux boilerplate](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fryanjyost%2Freact-spa-starter) I'm working on.
+While there are obviously tons of great answers to these questions, I've tried several unsatisfactory methods before the one I'll walk through in this tutorial, which I found to be a nice implementation for an [open source react/redux boilerplate](https://github.com/ryanjyost/react-spa-starter) I'm working on.
 
 ## Prerequisites
 
