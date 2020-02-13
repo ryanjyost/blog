@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "React SPA Starter",
-    desc: `Simple, rich boilerplate for single-page React applications.`,
+    desc: `Fully-featured boilerplate for single-page React applications. Comes with automated AWS resource provisioning and CI/CD configurations.`,
     preview: "boilerplate",
     // skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/react-spa-starter",
@@ -10,7 +10,7 @@ const projects = [
   },
   {
     name: "Movie Medium",
-    desc: `A game integrated with Slack where you predict the Rotten Tomatoes scores of upcoming movies against coworkers.`,
+    desc: `A game where you predict the Rotten Tomatoes scores of upcoming movies. Play with friends on GroupMe or coworkers in Slack (available in the Slack app marketplace).`,
     preview: "moviemedium",
     // skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/movie-api",
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     name: "DepChecker",
-    desc: `Audit your project's NPM dependencies and export the report as a CSV file.`,
+    desc: `Analyzes a project’s package.json file and generates a detailed report about the state of its npm dependencies.`,
     preview: "depchecker",
     skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/depchecker",

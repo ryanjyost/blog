@@ -185,6 +185,9 @@ export default function Layout(props) {
             <Link to={"/blog"} style={{ margin: "0px 5px" }}>
               Blog
             </Link>
+            <a style={{ margin: "0px 5px" }} href="https://github.com/ryanjyost">
+              GitHub
+            </a>
             <a
               style={{ margin: "0px 5px" }}
               href={"https://www.linkedin.com/in/ryan-yost-b5b2bb65/"}

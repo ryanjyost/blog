@@ -23,7 +23,6 @@ const MenuItem = ({ icon, children }) => {
 class Index extends React.Component {
   render() {
     const { data } = this.props;
-    console.log("DA)TA", data);
 
     const aboutMe = () => {
       return (
@@ -52,38 +51,40 @@ class Index extends React.Component {
             I landed my first developer job in early 2018 at an IT company and
             have been loving it ever since.
           </p>
-          <h5 style={{ marginBottom: 10 }}>Current Work</h5>
-          <p>
-            My typical work day involves a healthy dose of React programming,
-            leveraging Redux and other supporting players in an Agile/Scrum
-            environment. I'll also write some end-to-end tests, conduct code
-            reviews and collaborate with our UX designer on new features.
-          </p>
-          <p>
-            Projects range from internal applications that manage hardware in
-            datacenters around the world, to building out features in our portal
-            for enterprise clients and tackling greenfield software in
-            consultative relationships.
-          </p>
-          <p>
-            While not my usual responsibilities, I have also built a native
-            tablet application, carried out architectural and build-pipeline
-            improvements for our large React/Redux application and written some
-            Node.js.
-          </p>
+          {/*<h5 style={{ marginBottom: 10 }}>Current Work</h5>*/}
+          {/*<p>*/}
+          {/*  My typical work day involves a healthy dose of React programming,*/}
+          {/*  leveraging Redux and other supporting players in an Agile/Scrum*/}
+          {/*  environment. I'll also write some end-to-end tests, conduct code*/}
+          {/*  reviews and collaborate with our UX designer on new features.*/}
+          {/*</p>*/}
+          {/*<p>*/}
+          {/*  Projects range from internal applications that manage hardware in*/}
+          {/*  datacenters around the world, to building out features in our portal*/}
+          {/*  for enterprise clients and tackling greenfield software in*/}
+          {/*  consultative relationships.*/}
+          {/*</p>*/}
+          {/*<p>*/}
+          {/*  While not my usual responsibilities, I have also built a native*/}
+          {/*  tablet application, carried out architectural and build-pipeline*/}
+          {/*  improvements for our large React/Redux application and written some*/}
+          {/*  Node.js.*/}
+          {/*</p>*/}
           <h5 style={{ marginBottom: 10 }}>Outside the 9 to 5</h5>
           <p>
             A lot of my free time is spent building side projects, playing with
             new tech and participating in the community by writing tutorials and
-            attending the occasional meetup. I really love software development,
-            so work and play are often mixed.
+            attending the occasional meetup (gave my first talk in January of
+            2020!). I really love software development, so work and play are
+            often mixed.
           </p>
           <p>
-            I also enjoy movies, staying active, good podcasts, spending time
-            with friends and going on at least one adventure a year. The most
-            recent one was two weeks in Thailand, where I became a certified
-            scuba diver, swam with a whale shark, washed muddy elephants and
-            almost missed my flight home because of a nefarious cab driver...
+            I also enjoy movies, staying active, good podcasts, taking improv
+            classes, spending time with friends and going on at least one
+            adventure a year. The most recent one was scuba diving in Grand
+            Cayman, where I saw some sharks and a huge eel, swam through
+            absolutely beautiful coral reefs and did my best not to get crushed
+            by the boat in rough waters!
           </p>
         </div>
       );
@@ -94,15 +95,14 @@ class Index extends React.Component {
         <div>
           {projects.map((project, i) => {
             return (
-              <div key={i} style={{ marginBottom: 50 }}>
+              <div key={i} style={{ marginBottom: 100 }}>
                 <h3
                   style={{
                     marginBottom: 5,
-                    fontSize: 20,
+                    fontSize: 22,
                   }}
                 >
                   <a
-                    // style={{ borderBottom: "none" }}
                     href={project.npm || project.link || project.github}
                   >
                     {project.name}
@@ -110,14 +110,14 @@ class Index extends React.Component {
                 </h3>
                 <p
                   style={{
-                    fontSize: 16,
+                    fontSize: 18,
                     color: "rgba(0,0,0,0.6)",
                     marginBottom: 3,
                   }}
                 >
                   {project.desc}
                 </p>
-                <div style={{ display: "flex", fontSize: 11, opacity: 0.6 }}>
+                <div style={{ display: "flex", fontSize: 13, opacity: 0.6 }}>
                   <div style={{ marginRight: 10 }}>
                     {project.frontCode ? (
                       <div>
@@ -206,7 +206,7 @@ class Index extends React.Component {
     const mySkills = () => {
       const skillStyle = {
         margin: "0px 5px 3px 0px",
-        fontSize: 14,
+        fontSize: 18,
         borderRadius: 3,
         padding: "2px 4px",
         border: "1px solid rgba(0,0,0,0.1)",
@@ -222,15 +222,29 @@ class Index extends React.Component {
       };
       return (
         <div>
+          <h4 style={{ marginBottom: 15 }}>General</h4>
+          <div style={sectionStyle}>
+            {skills
+              .filter(skill => skill.type === "general")
+              .map((skill, i) => {
+                return (
+                  <div key={i} style={skillStyle}>
+                    {skill.name}
+                  </div>
+                );
+              })}
+          </div>
           <h4 style={{ marginBottom: 15 }}>Front End</h4>
           <div style={sectionStyle}>
-            {skills.filter(skill => skill.type === "front").map((skill, i) => {
-              return (
-                <div key={i} style={skillStyle}>
-                  {skill.name}
-                </div>
-              );
-            })}
+            {skills
+              .filter(skill => skill.type === "front")
+              .map((skill, i) => {
+                return (
+                  <div key={i} style={skillStyle}>
+                    {skill.name}
+                  </div>
+                );
+              })}
           </div>
           <h4 style={{ marginBottom: 15 }}>Back End</h4>
           <div style={sectionStyle}>
@@ -246,23 +260,39 @@ class Index extends React.Component {
           </div>
           <h4 style={{ marginBottom: 15 }}>Testing</h4>
           <div style={sectionStyle}>
-            {skills.filter(skill => skill.type === "test").map((skill, i) => {
-              return (
-                <div key={i} style={skillStyle}>
-                  {skill.name}
-                </div>
-              );
-            })}
+            {skills
+              .filter(skill => skill.type === "test")
+              .map((skill, i) => {
+                return (
+                  <div key={i} style={skillStyle}>
+                    {skill.name}
+                  </div>
+                );
+              })}
           </div>
-          <h4 style={{ marginBottom: 15 }}>Everything else</h4>
+          <h4 style={{ marginBottom: 15 }}>Concepts</h4>
           <div style={sectionStyle}>
-            {skills.filter(skill => !skill.type).map((skill, i) => {
-              return (
-                <div key={i} style={skillStyle}>
-                  {skill.name}
-                </div>
-              );
-            })}
+            {skills
+              .filter(skill => skill.type === 'concepts')
+              .map((skill, i) => {
+                return (
+                  <div key={i} style={skillStyle}>
+                    {skill.name}
+                  </div>
+                );
+              })}
+          </div>
+          <h4 style={{ marginBottom: 15 }}>Tools</h4>
+          <div style={sectionStyle}>
+            {skills
+              .filter(skill => skill.type === 'tools')
+              .map((skill, i) => {
+                return (
+                  <div key={i} style={skillStyle}>
+                    {skill.name}
+                  </div>
+                );
+              })}
           </div>
         </div>
       );
@@ -293,20 +323,33 @@ class Index extends React.Component {
         }}
       >
         <SEO title="Ryan J Yost" />
+        <div style={{ height: 100 }} />
         <Bio isIndex />
-        <ul className={"noListStyle"}>
+
+        <ul
+          className={"noListStyle"}
+          style={{
+            backgroundColor: "rgba(67, 178, 170, 0.1)",
+            border: "1px solid rgba(67, 178, 170, 0.3)",
+            padding: "20px 20px 5px 20px",
+            borderRadius: 5,
+          }}
+        >
           <MenuItem icon={`👇`}>
             Scroll to learn more{"   "}
             <a href={"#about"}>
               <strong>about me</strong>
-            </a>,{"   "}
+            </a>
+            ,{"   "}
             <a href={"#portfolio"}>
               <strong>software I've made</strong>
-            </a>,{"   "}
+            </a>
+            ,{"   "}
             and{"   "}
             <a href={"#skills"}>
               <strong>my skills/experience/technologies</strong>
-            </a>.
+            </a>
+            .
           </MenuItem>
           <MenuItem icon={`🖋️`}>
             Read my{" "}
@@ -323,7 +366,8 @@ class Index extends React.Component {
             Check out some of{" "}
             <a href="https://github.com/ryanjyost">
               <strong>my code on GitHub</strong>
-            </a>. I mostly use React, Node and supporting players
+            </a>
+            . I mostly use React, Node and supporting players
           </MenuItem>
 
           <MenuItem icon={`📃`}>
@@ -348,7 +392,7 @@ class Index extends React.Component {
           </MenuItem>
         </ul>
         <div style={{ margin: "100px 0px" }}>
-          <h3
+          <h2
             id={"portfolio"}
             style={{
               borderBottom: "2px solid #e5e5e5",
@@ -356,9 +400,9 @@ class Index extends React.Component {
             }}
           >
             Things I've built
-          </h3>
+          </h2>
           {myPortfolio()}
-          <h3
+          <h2
             id={"skills"}
             style={{
               marginTop: 100,
@@ -366,10 +410,10 @@ class Index extends React.Component {
               paddingBottom: 5,
             }}
           >
-            Skills and familiar tech
-          </h3>
+            Skills, concepts and familiar tech
+          </h2>
           {mySkills()}
-          <h3
+          <h2
             id={"writing"}
             style={{
               marginTop: 100,
@@ -378,10 +422,10 @@ class Index extends React.Component {
             }}
           >
             Things I've written
-          </h3>
+          </h2>
           {myArticles()}
 
-          <h3
+          <h2
             id={"about"}
             style={{
               marginTop: 100,
@@ -390,7 +434,7 @@ class Index extends React.Component {
             }}
           >
             About Me
-          </h3>
+          </h2>
           {aboutMe()}
         </div>
       </Layout>

@@ -70,10 +70,10 @@ const Bio = ({ isIndex }) => {
       />
       <p
         style={{
-          width: 380,
+          width: 450,
           maxWidth: "90%",
           marginBottom: 20,
-          fontSize: isIndex ? null : 14,
+          fontSize: isIndex ? 20 : 14,
         }}
       >
         <strong>Hi, I'm Ryan.</strong> I live and work in Chicago as a Front End
