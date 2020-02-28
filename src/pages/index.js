@@ -10,6 +10,7 @@ import Layout from "../components/layout";
 import ArticlePreview from "../components/ArticlePreview";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
+import SubscribeToNewsletter from "../components/SubscribeToNewsletter";
 
 const MenuItem = ({ icon, children }) => {
   return (
@@ -333,6 +334,7 @@ class Index extends React.Component {
             border: "1px solid rgba(67, 178, 170, 0.3)",
             padding: "20px 20px 5px 20px",
             borderRadius: 5,
+            marginBottom: 60
           }}
         >
           <MenuItem icon={`👇`}>
@@ -391,6 +393,9 @@ class Index extends React.Component {
             </a>
           </MenuItem>
         </ul>
+
+        <SubscribeToNewsletter />
+
         <div style={{ margin: "100px 0px" }}>
           <h2
             id={"portfolio"}

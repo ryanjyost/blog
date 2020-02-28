@@ -8,7 +8,7 @@ export default function SubscribeToNewsletter() {
         padding: "50px 5px",
         textAlign: "center",
         backgroundColor: "rgb(51, 55, 70)",
-        marginTop: 100,
+        marginTop: 50,
       }}
       action="https://tinyletter.com/ryanjyost"
       method="post"
@@ -30,19 +30,20 @@ export default function SubscribeToNewsletter() {
           justifyContent: "center",
         }}
       >
-        <h4 style={{ marginBottom: 3, textAlign: "center", color: "#fff" }}>
-          Get tutorials in your inbox
+        <h4 style={{ marginBottom: 10, textAlign: "center", color: "#fff" }}>
+          Get JavaScript tutorials + other good stuff
         </h4>
         <p
           style={{
             textAlign: "center",
-            fontSize: 12,
+            fontSize: 16,
             maxWidth: 400,
             color: "#fff",
+
           }}
         >
-          Simple, quick, step-by-step tutorials that teach you how to implement
-          JavaScript tech like React, Node and supporting players. <br />
+          Join my mailing list for new content every now and again.<br/>
+          If email ain't your thing, follow me on twitter <a style={{color: "#fff", marginLeft: 2, fontWeight: 'bold'}} href={'https://twitter.com/ryanjyost'}>@ryanjyost</a><br />
         </p>
       </div>
 

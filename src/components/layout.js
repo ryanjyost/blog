@@ -98,7 +98,7 @@ export default function Layout(props) {
               color: "rgba(0,0,0,0.6)",
             }}
           >
-            Quick, step-by-step JavaScript tutorials
+            JavaScript tutorials + other stuff
           </h6>
         </div>
       </div>
