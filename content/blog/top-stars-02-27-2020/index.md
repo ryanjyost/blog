@@ -1,5 +1,5 @@
 ---
-title: 7 JavaScript projects you should check out this week (Feb. 20, 2020)
+title: 7 JavaScript projects starred by top JavaScript developers
 date: "2020-02-28"
 description: "A list of GitHub projects that were starred by multiple top JavaScript developers in the past 6 months."
 ---
