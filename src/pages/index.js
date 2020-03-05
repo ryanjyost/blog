@@ -324,7 +324,7 @@ class Index extends React.Component {
         }}
       >
         <SEO title="Ryan J Yost" />
-        <div style={{ height: 100 }} />
+        <div style={{ height: 20 }} />
         <Bio isIndex />
 
         <ul

@@ -54,21 +54,6 @@ export default function Layout(props) {
           marginTop: 10,
         }}
       >
-        {/*{!isRoot ? (*/}
-        {/*<Image*/}
-        {/*fixed={data.avatar.childImageSharp.fixed}*/}
-        {/*alt={author}*/}
-        {/*style={{*/}
-        {/*marginRight: rhythm(1 / 4),*/}
-        {/*marginBottom: 0,*/}
-        {/*minWidth: 30,*/}
-        {/*borderRadius: `100%`,*/}
-        {/*}}*/}
-        {/*imgStyle={{*/}
-        {/*borderRadius: `50%`,*/}
-        {/*}}*/}
-        {/*/>*/}
-        {/*) : null}*/}
         <div style={{ paddingRight: 20 }}>
           <h5
             style={{
@@ -120,21 +105,29 @@ export default function Layout(props) {
           style={{
             fontSize: 12,
             marginRight: 20,
-            // borderBottom: pathname === "/blog" ? "none" : null,
             fontWeight: pathname === "/blog" ? "bold" : "normal",
           }}
         >
           Writing
         </Link>
         <Link
+          to={`/follow-the-stars`}
+          style={{
+            fontSize: 12,
+            marginRight: 20,
+            fontWeight: pathname === "/followthestars" ? "bold" : "normal",
+          }}
+        >
+          ⭐️ Follow the Stars ⭐️
+        </Link>
+        <Link
           to={`/subscribe`}
           style={{
             fontSize: 12,
-            // borderBottom: pathname === "/blog" ? "none" : null,
             fontWeight: pathname === "/subscribe" ? "bold" : "normal",
           }}
         >
-          Subscribe
+          Newsletter
         </Link>
       </div>
     </div>
