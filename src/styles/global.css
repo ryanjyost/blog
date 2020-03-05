@@ -1,96 +1,128 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
-    border-bottom: 2px solid rgba(67, 178, 170, 0.5);
-    padding-bottom: 1px;
-    text-decoration: none;
-    color: hsla(0,0%,0%,0.8);
-    /*font-weight:500;*/
-    line-height: 1.4;
+  border-bottom: 2px solid rgba(67, 178, 170, 0.5);
+  padding-bottom: 1px;
+  text-decoration: none;
+  color: hsla(0, 0%, 0%, 0.8);
+  /*font-weight:500;*/
+  line-height: 1.4;
 }
 
 a:hover {
-    border-bottom: 2px solid rgba(67, 178, 170, 1);
-    color: hsla(0,0%,0%,1);
+  border-bottom: 2px solid rgba(67, 178, 170, 1);
+  color: hsla(0, 0%, 0%, 1);
 }
 
 .noListStyle {
-    list-style-type: none;
-    margin: 0px;
+  list-style-type: none;
+  margin: 0px;
 }
 
-input[type="text"]{
-    font-size: 16px;
-    padding: 5px 10px;
-    border-radius: 3px;
-    border: none;
+input[type="text"] {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
 }
 
-input[type="submit"]{
-    background-color: rgba(67, 178, 170, 1);
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    padding: 5px;
-    border-radius: 3px;
-    cursor:pointer;
+input[type="submit"] {
+  background-color: rgba(67, 178, 170, 1);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 blockquote {
-    border-left: 2px solid rgba(67, 178, 170, 0.6);
-    margin: 0px 0px 20px 0px;
-    padding-left: 1.3rem;
-    opacity: 0.8;
-    font-style: italic;
+  border-left: 2px solid rgba(67, 178, 170, 0.6);
+  margin: 0px 0px 20px 0px;
+  padding-left: 1.3rem;
+  opacity: 0.8;
+  font-style: italic;
 }
 
 code {
-    font-family: monospace !important;
-    font-style: normal !important;
+  font-family: monospace !important;
+  font-style: normal !important;
 }
 
-#blog-post h1, #blog-post h3, #blog-post h4, #blog-post h5, #blog-post h6 {
-    margin-bottom: 10px;
-    margin-top: 40px;
+#blog-post h1,
+#blog-post h3,
+#blog-post h4,
+#blog-post h5,
+#blog-post h6 {
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
-
 
 #blog-post h2 {
-    margin-bottom: 10px;
-    margin-top: 60px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 5px;
 }
 
 #blog-post ul {
-    list-style-type: inherit;
-    margin-left: 40px;
+  list-style-type: inherit;
+  margin-left: 40px;
 }
 
 #blog-post img {
-    margin: 20px 0px 20px 0px;
-    border: 1px solid #f2f2f2;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin: 20px 0px 20px 0px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-:not(pre) > code[class*="language-"]{
-    padding: 3px 6px !important;
-    border-radius: 3px !important;
-    margin: 0px 3px;
+:not(pre) > code[class*="language-"] {
+  padding: 3px 6px !important;
+  border-radius: 3px !important;
+  margin: 0px 3px;
 }
 
 .gatsby-highlight {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .language-text {
-    color: rgba(60, 146, 140, 1) !important;
-    background-color: rgba(67, 178, 170, 0.1) !important;
-    font-weight:600;
+  color: rgba(60, 146, 140, 1) !important;
+  background-color: rgba(67, 178, 170, 0.1) !important;
+  font-weight: 600;
 }
 
-.language-javascript, .language-jsx, .language-text  {
-    border-radius: 3px;
+.language-javascript,
+.language-jsx,
+.language-text {
+  border-radius: 3px;
+}
+
+input::placeholder {
+  opacity: 0.4;
+}
+
+#followTheStarsBtn {
+  background-color: rgba(255, 87, 51 , 1);
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 0px solid #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10),
+    0 3px 3px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+    padding: 5px
+}
+
+#followTheStarsBtn:disabled {
+  background-color: rgba(255, 87, 51 , 0.6);
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 0px solid transparent;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0),
+    0 6px 6px rgba(255, 255, 255, 0) !important;
+  cursor: not-allowed;
 }
