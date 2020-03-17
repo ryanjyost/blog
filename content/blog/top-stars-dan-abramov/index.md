@@ -1,7 +1,7 @@
 ---
 title: "Projects starred by Dan Abramov in the past year"
 date: "2020-03-16"
-description: "Another installment of 'Follow the Stars''"
+description: "Another installment of 'Follow the Stars'"
 ---
 
 Keeping up with all of the cool projects out there is impossible - but seeing what other developers are starring on
