@@ -12,6 +12,11 @@ Routing in React, usually using the popular [React Router](https://reacttraining
 
 While there are obviously tons of great answers to these questions, I've tried several unsatisfactory methods before the one I'll walk through in this tutorial, which I found to be a nice implementation for an [open source react/redux boilerplate](https://github.com/ryanjyost/react-spa-starter) I'm working on.
 
+## Need to hire a React developer?
+
+If you need to hire a React developer, then this post from Toptal, [How to Hire a Great React.js Developer](https://www.toptal.com/react#hiring-guide), can
+help you find the right dev for your needs.
+
 ## Prerequisites
 
 - Solid understanding of modern React (hooks, etc.)
@@ -434,7 +439,7 @@ In order to render the `Login` component at the `/` path, you need to update the
 ```jsx
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Login from "./Login"
+import Login from "./Login";
 
 const ROUTES = [
   { path: "/", key: "ROOT", exact: true, component: Login }, //here's the update
