@@ -110,25 +110,25 @@ export default function Layout(props) {
         >
           Writing
         </Link>
-        <Link
-          to={`/follow-the-stars`}
-          style={{
-            fontSize: 12,
-            marginRight: 20,
-            fontWeight: pathname === "/followthestars" ? "bold" : "normal",
-          }}
-        >
-          ⭐️ Follow the Stars ⭐️
-        </Link>
-        <Link
-          to={`/subscribe`}
-          style={{
-            fontSize: 12,
-            fontWeight: pathname === "/subscribe" ? "bold" : "normal",
-          }}
-        >
-          Newsletter
-        </Link>
+        {/*<Link*/}
+        {/*  to={`/follow-the-stars`}*/}
+        {/*  style={{*/}
+        {/*    fontSize: 12,*/}
+        {/*    marginRight: 20,*/}
+        {/*    fontWeight: pathname === "/followthestars" ? "bold" : "normal",*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  ⭐️ Follow the Stars ⭐️*/}
+        {/*</Link>*/}
+        {/*<Link*/}
+        {/*  to={`/subscribe`}*/}
+        {/*  style={{*/}
+        {/*    fontSize: 12,*/}
+        {/*    fontWeight: pathname === "/subscribe" ? "bold" : "normal",*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  Newsletter*/}
+        {/*</Link>*/}
       </div>
     </div>
   );

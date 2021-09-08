@@ -338,15 +338,11 @@ class Index extends React.Component {
           }}
         >
           <MenuItem icon={`👇`}>
-            Scroll to learn more{"   "}
-            <a href={"#about"}>
-              <strong>about me</strong>
-            </a>
-            ,{"   "}
+            Scroll to see{"   "}
             <a href={"#portfolio"}>
               <strong>software I've made</strong>
             </a>
-            ,{"   "}
+            {"   "}
             and{"   "}
             <a href={"#skills"}>
               <strong>my skills/experience/technologies</strong>
@@ -380,10 +376,6 @@ class Index extends React.Component {
 
           <MenuItem icon={`👋`}>
             Connect with me on{" "}
-            <a href={"https://twitter.com/ryanjyost"}>
-              <strong>Twitter</strong>
-            </a>{" "}
-            and{" "}
             <a href={"https://www.linkedin.com/in/ryan-yost-b5b2bb65/"}>
               <strong>LinkedIn</strong>
             </a>{" "}
@@ -394,7 +386,7 @@ class Index extends React.Component {
           </MenuItem>
         </ul>
 
-        <SubscribeToNewsletter />
+        {/*<SubscribeToNewsletter />*/}
 
         <div style={{ margin: "100px 0px" }}>
           <h2
@@ -430,17 +422,17 @@ class Index extends React.Component {
           </h2>
           {myArticles()}
 
-          <h2
-            id={"about"}
-            style={{
-              marginTop: 100,
-              borderBottom: "2px solid #e5e5e5",
-              paddingBottom: 5,
-            }}
-          >
-            About Me
-          </h2>
-          {aboutMe()}
+          {/*<h2*/}
+          {/*  id={"about"}*/}
+          {/*  style={{*/}
+          {/*    marginTop: 100,*/}
+          {/*    borderBottom: "2px solid #e5e5e5",*/}
+          {/*    paddingBottom: 5,*/}
+          {/*  }}*/}
+          {/*>*/}
+          {/*  About Me*/}
+          {/*</h2>*/}
+          {/*{aboutMe()}*/}
         </div>
       </Layout>
     );

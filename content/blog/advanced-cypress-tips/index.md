@@ -8,8 +8,7 @@ description:
 
 Cypress for end-to-end testing is awesome and easy to get started with. But once you've written more than a few tests
 , you'll start to realize ways to improve your test infrastructure and implementations. Here are 5 techniques I've
-picked up
-that made huge improvements to my Cypress testing.
+ picked up that made huge improvements to my Cypress testing.
 
 ## We'll walk through 5 techniques
 

@@ -77,8 +77,8 @@ const Bio = ({ isIndex }) => {
         }}
       >
         <strong>Hi, I'm Ryan.</strong> I live and work in Chicago as a Front End
-        Engineer. I'm always building <a href={"#portfolio"}>side projects</a>{" "}
-        and write JavaScript-related <a href={"#writing"}>tutorials</a> that
+        Engineer. I'm always working on <a href={"#portfolio"}>side projects</a>{" "}
+        and sometimes write JavaScript-related <a href={"#writing"}>tutorials</a> that
         help folks build things, too.
         {` `}
         {!isIndex && (
