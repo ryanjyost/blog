@@ -65,6 +65,6 @@
     "preload-fonts": "gatsby-preload-fonts"
   },
   "engines": {
-    "node" : ">=12.13.0"
+    "node": ">=12.13.0"
   }
 }
