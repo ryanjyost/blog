@@ -236,7 +236,6 @@ export default function FollowTheStars() {
         title="Follow the Stars"
         description="A weekly email with the projects that the folks you follow on GitHub have starred."
         image="followTheStars.png"
-
       />
       <div
         style={{

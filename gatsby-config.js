@@ -104,7 +104,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-preload-fonts`,
+    // `gatsby-plugin-preload-fonts`,
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {

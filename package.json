@@ -63,5 +63,8 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "preload-fonts": "gatsby-preload-fonts"
+  },
+  "engines": {
+    "node" : ">=12.13.0"
   }
 }

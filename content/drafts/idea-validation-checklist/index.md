@@ -130,10 +130,10 @@ Don't know! Need to refine the exact problem I'm solving, then come up with the 
 solution to potential customers and see what they say.
 
 #### ⚠ Are multiple businesses already solving this problem for customers (good), or is it a winner-take-all market (bad), or is it an unsolved problem (risky)?
+
 Well, many are automating the monitoring and remedying of dependency issues
 
-[ ] 
-[ ] Can I build an MVP (or really an SLC) quickly?
+[ ][ ] Can I build an MVP (or really an SLC) quickly?
 [ ] Do I personally know how to do a good job building this solution?
 [ ] Will my solution be unique and differentiated?
 [ ] Will my solution remain unique, or are the unique things about it easy to copy?

@@ -103,9 +103,7 @@ class Index extends React.Component {
                     fontSize: 22,
                   }}
                 >
-                  <a
-                    href={project.npm || project.link || project.github}
-                  >
+                  <a href={project.npm || project.link || project.github}>
                     {project.name}
                   </a>
                 </h3>
@@ -274,7 +272,7 @@ class Index extends React.Component {
           <h4 style={{ marginBottom: 15 }}>Concepts</h4>
           <div style={sectionStyle}>
             {skills
-              .filter(skill => skill.type === 'concepts')
+              .filter(skill => skill.type === "concepts")
               .map((skill, i) => {
                 return (
                   <div key={i} style={skillStyle}>
@@ -286,7 +284,7 @@ class Index extends React.Component {
           <h4 style={{ marginBottom: 15 }}>Tools</h4>
           <div style={sectionStyle}>
             {skills
-              .filter(skill => skill.type === 'tools')
+              .filter(skill => skill.type === "tools")
               .map((skill, i) => {
                 return (
                   <div key={i} style={skillStyle}>
@@ -334,7 +332,7 @@ class Index extends React.Component {
             border: "1px solid rgba(67, 178, 170, 0.3)",
             padding: "20px 20px 5px 20px",
             borderRadius: 5,
-            marginBottom: 60
+            marginBottom: 60,
           }}
         >
           <MenuItem icon={`👇`}>

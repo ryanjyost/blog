@@ -99,8 +99,8 @@ Once that module opens, update the following options...
 - Select the "Use this bucket to host a website" option
 - Set the index document as `index.html`. When a `create-react-app` app is built for production, the root file is
   `index.html`, which serves up the bundled JavaScript and any other assets for your app.
-- Set the error document as `index.html` as well, because we want React to handle any undefined routes - that could 
-be with React Router, or all routes can point to your app no matter what.
+- Set the error document as `index.html` as well, because we want React to handle any undefined routes - that could
+  be with React Router, or all routes can point to your app no matter what.
 
 **Here's the final config.** Click the "Save" button to make it official.
 ![Image](https://yosts-posts.s3.amazonaws.com/post2_staticConfig.png)

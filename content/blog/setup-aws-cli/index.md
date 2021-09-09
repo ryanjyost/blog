@@ -57,8 +57,9 @@ Default region name [None]: <Region> // e.g. us-east-1
 Default output format [None]: json
 ```
 
-To verify that your CLI credentials are properly configured, run the following command, which will output your 
+To verify that your CLI credentials are properly configured, run the following command, which will output your
 credentials.
+
 ```dotenv
 > cat ~/.aws/credentials
 [default]
@@ -66,5 +67,6 @@ aws_access_key_id=<AccessKey>
 aws_secret_access_key=<SecretAccessKey>
 ```
 
-## And that's it! 
+## And that's it!
+
 Stay tuned for future installments of this series.

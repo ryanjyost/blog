@@ -134,6 +134,7 @@ bucket name rather than the placeholder.
 ```
 
 **Here's a quick breakdown of the aspects of this command...**
+
 - `cloudformation` is the AWS service we're using
 - `deploy` is a CloudFormation action to execute a template and provision the resources specified. Check out ze [docs](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/deploy/index.html)
 - `--template-file` specifies the template to execute
@@ -163,6 +164,7 @@ Also, find the CloudFormation section of your AWS Console. The main page of that
 ![Image](https://yosts-posts.s3.amazonaws.com/post3_cloudformation.png)
 
 ### Upload the React app to your bucket
+
 Add another script called `upload`, again replacing the `<BUCKET_NAME>` with the one you added to the `provision` script.
 
 The app needs to be built for production before it can be uploaded to your bucket, so add a script that both builds _then_ uploads your app, called `deploy`.
@@ -185,8 +187,8 @@ The app needs to be built for production before it can be uploaded to your bucke
 }
 ```
 
-
 Now you can deploy your app to your S3 bucket by running the below command.
+
 ```dotenv
 npm run deploy
 ```
@@ -207,4 +209,3 @@ You can now host a React app in an S3 bucket and deploy it via the CLI. But that
 
 If you want to see a single app with all of those topics implemented, **check out [react-spa-starter](https://github.com/ryanjyost/react-spa-starter), an open source React/Redux boilerplate** I'm working on that inspired this
 tutorial series.
-

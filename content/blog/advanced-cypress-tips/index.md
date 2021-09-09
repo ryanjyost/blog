@@ -8,7 +8,7 @@ description:
 
 Cypress for end-to-end testing is awesome and easy to get started with. But once you've written more than a few tests
 , you'll start to realize ways to improve your test infrastructure and implementations. Here are 5 techniques I've
- picked up that made huge improvements to my Cypress testing.
+picked up that made huge improvements to my Cypress testing.
 
 ## We'll walk through 5 techniques
 
@@ -46,6 +46,7 @@ rm -R ./cypress/integration/examples
 ```
 
 Run the app in a terminal window and keep it running at `http://localhost:3000` throughout the tutorial.
+
 ```xpath2
 npm start
 ```
@@ -280,18 +281,18 @@ out the common bits shortly.
 
 ```javascript
 it("has a link pointing to the react website", function() {
-    cy.server();
-    cy.route("/200?**").as("fakeNetworkRequest");
+  cy.server();
+  cy.route("/200?**").as("fakeNetworkRequest");
 
-    cy.visit("http://localhost:3000");
+  cy.visit("http://localhost:3000");
 
-    cy.wait("@fakeNetworkRequest");
+  cy.wait("@fakeNetworkRequest");
 
-    cy.findByText("Learn React").should(
-      "have.attr",
-      "href",
-      "https://reactjs.org"
-    );
+  cy.findByText("Learn React").should(
+    "have.attr",
+    "href",
+    "https://reactjs.org"
+  );
 });
 ```
 

@@ -39,11 +39,18 @@ export default function SubscribeToNewsletter() {
             fontSize: 16,
             maxWidth: 400,
             color: "#fff",
-
           }}
         >
-          Join my mailing list for new content every now and again.<br/>
-          If email ain't your thing, follow me on twitter <a style={{color: "#fff", marginLeft: 2, fontWeight: 'bold'}} href={'https://twitter.com/ryanjyost'}>@ryanjyost</a><br />
+          Join my mailing list for new content every now and again.
+          <br />
+          If email ain't your thing, follow me on twitter{" "}
+          <a
+            style={{ color: "#fff", marginLeft: 2, fontWeight: "bold" }}
+            href={"https://twitter.com/ryanjyost"}
+          >
+            @ryanjyost
+          </a>
+          <br />
         </p>
       </div>
 
