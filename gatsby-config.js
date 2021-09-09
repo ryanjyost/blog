@@ -104,22 +104,23 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Source Sans Pro`,
-            variants: [`400`, `600`, `700`],
-            subsets: [`latin`],
-          },
-          // {
-          //   family: `Open Sans`,
-          //   variants: [`400`, `700`],
-          // },
-        ],
-      },
-    },
+    `gatsby-plugin-preload-fonts`,
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Source Sans Pro`,
+    //         variants: [`400`, `600`, `700`],
+    //         subsets: [`latin`],
+    //       },
+    //       // {
+    //       //   family: `Open Sans`,
+    //       //   variants: [`400`, `700`],
+    //       // },
+    //     ],
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
