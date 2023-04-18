@@ -482,6 +482,20 @@ export const pageQuery = graphql`
         }
       }
     }
+    scriptsflix: file(absolutePath: { regex: "/scriptsflix-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+    screenwriter: file(absolutePath: { regex: "/screenwriter-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
     simpleStorage: file(absolutePath: { regex: "/simple-storage-preview/" }) {
       childImageSharp {
         sizes(maxWidth: 630) {

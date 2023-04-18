@@ -1,5 +1,13 @@
 const projects = [
   {
+    name: "ScriptsFlix",
+    desc: `Browse TV and Movie scripts like you're on Netflix.`,
+    preview: "scriptsflix",
+    // skills: ["React", "Node.js", "Socket.io", "AWS"],
+    github: "https://github.com/ryanjyost/scriptsflix",
+    link: "https://scriptsflix.com",
+  },
+  {
     name: "React SPA Starter",
     desc: `Fully-featured boilerplate for single-page React applications. Comes with automated AWS resource provisioning and CI/CD configurations.`,
     preview: "boilerplate",
@@ -9,13 +17,32 @@ const projects = [
     link: "https://react-spa-starter.com",
   },
   {
+    name: "React Simple Storage",
+    desc:
+      "Simple component and helper functions for using web storage with React. ",
+    preview: "simpleStorage",
+    skills: ["React", "npm", "Web Storage", "Open Source", "Technical Writing"],
+    github: "https://github.com/ryanjyost/react-simple-storage",
+    link: "https://ryanjyost.github.io/react-simple-storage-example-project/",
+    npm: "https://www.npmjs.com/package/react-simple-storage",
+  },
+
+  {
+    name: "Demo Screenwriting Software",
+    desc: `The basic foundation of a sleek screenwriting software product.`,
+    preview: "screenwriter",
+    // skills: ["React", "Node.js", "Socket.io", "AWS"],
+    github: "https://github.com/ryanjyost/screenwriter",
+    link: "https://amazing-snyder-fe88c6.netlify.app/",
+  },
+  {
     name: "Movie Medium",
     desc: `A game where you predict the Rotten Tomatoes scores of upcoming movies. Play with friends on GroupMe or coworkers in Slack (available in the Slack app marketplace).`,
     preview: "moviemedium",
     // skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/movie-api",
     frontCode: "https://github.com/ryanjyost/movie-app",
-    link: "https://moviemedium.io",
+    // link: "https://moviemedium.io",
   },
   {
     name: "DepChecker",
@@ -24,7 +51,7 @@ const projects = [
     skills: ["React", "Node.js", "Socket.io", "AWS"],
     github: "https://github.com/ryanjyost/depchecker",
     frontCode: "https://github.com/ryanjyost/depchecker-client",
-    link: "https://depchecker.com/",
+    link: "https://github.com/marketplace/depchecker-bot",
   },
   {
     name: "React Simple Storage",
