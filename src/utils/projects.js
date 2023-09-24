@@ -1,5 +1,13 @@
 const projects = [
   {
+    name: "ai-prompt-organizer",
+    desc: "Super simple and scalable AI prompt management tools",
+    preview: "aiPromptOrganizer",
+    github: "https://github.com/ryanjyost/ai-prompt-organizer#readme",
+    npm: "https://www.npmjs.com/package/ai-prompt-organizer",
+    link: "https://www.npmjs.com/package/ai-prompt-organizer",
+  },
+  {
     name: "ScriptsFlix",
     desc: `Browse TV and Movie scripts like you're on Netflix.`,
     preview: "scriptsflix",

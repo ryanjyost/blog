@@ -489,6 +489,13 @@ export const pageQuery = graphql`
         }
       }
     }
+    aiPromptOrganizer: file(absolutePath: { regex: "/ai-prompt-organizer-preview/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
     screenwriter: file(absolutePath: { regex: "/screenwriter-preview/" }) {
       childImageSharp {
         sizes(maxWidth: 630) {

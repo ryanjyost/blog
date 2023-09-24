@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function SubscribeToNewsletter() {
+  return null;
   return (
     <form
       style={{
